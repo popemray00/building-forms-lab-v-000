@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 
 
 class BandInput extends Component {
-  
+
   state = {
     name: ''
   }
@@ -21,8 +21,8 @@ class BandInput extends Component {
       name: event.target.value
     });
   }
-  
-  
+
+
   render() {
     return(
       <div>
